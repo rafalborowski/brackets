@@ -52,7 +52,7 @@ define({
     "ERROR_SAVING_FILE"                 : "Wystąpił błąd podczas próby zapisu pliku <span class='dialog-filename'>{0}</span>. {1}",
     "ERROR_RENAMING_FILE_TITLE"         : "Nie można zmienić nazwy",
     "ERROR_RENAMING_FILE"               : "Wystąpił błąd podczas próby zmiany nazwy pliku <span class='dialog-filename'>{0}</span>. {1}",
-    "INVALID_FILENAME_TITLE"            : "Niewłaściwa nazwa pliku",
+    "INVALID_FILENAME_TITLE"            : "Niepoprawna nazwa pliku",
     "INVALID_FILENAME_MESSAGE"          : "Nazwa pliku nie może zawierać następujących znaków: /?*:;{}<>\\|",
     "FILE_ALREADY_EXISTS"               : "Plik <span class='dialog-filename'>{0}</span> już istnieje.",
     "ERROR_CREATING_FILE_TITLE"         : "Nie można utworzyć pliku",
@@ -71,10 +71,10 @@ define({
     "ERROR_CANT_FIND_CHROME"            : "Przeglądarka Google Chrome nie została znaleziona. Upewnij się, że jest zainstalowana.",
     "ERROR_LAUNCHING_BROWSER"           : "Wystąpił błąd przy próbie otwarcia przeglądarki. (błąd {0})",
     
-    "LIVE_DEVELOPMENT_ERROR_TITLE"      : "Błąd Błyskawicznego Podgląd",
+    "LIVE_DEVELOPMENT_ERROR_TITLE"      : "Błąd Podglądu Błyskawicznego",
     "LIVE_DEVELOPMENT_RELAUNCH_TITLE"   : "Łączenie z przeglądarką",
-    "LIVE_DEVELOPMENT_ERROR_MESSAGE"    : "W celu włączenia Błyskawicznego Podglądu, Chrome musi zostać zrestartowany z włączonym zdalnym debugowaniem.<br /><br />Czy chcesz włączyć zdalne debugowanie i zrestartować Chrome?",
-    "LIVE_DEV_LOADING_ERROR_MESSAGE"    : "Nie można wczytać strony Podglądu Błyskawicznego.",
+    "LIVE_DEVELOPMENT_ERROR_MESSAGE"    : "W celu włączenia Podglądu Błyskawicznego, Chrome musi zostać zrestartowany z włączonym zdalnym debugowaniem.<br /><br />Czy chcesz włączyć zdalne debugowanie i zrestartować Chrome?",
+    "LIVE_DEV_LOADING_ERROR_MESSAGE"    : "Nie można wczytać strony Błyskawicznego Podglądu.",
     "LIVE_DEV_NEED_HTML_MESSAGE"        : "W celu użycia Podglądu Błyskawicznego otwórz plik HTML.",
     "LIVE_DEV_NEED_BASEURL_MESSAGE"     : "Aby uruchomić Podgląd Błyskawiczny na plikach serwerowych (np. plikach PHP) musisz podać adres dla tego projektu.",
     "LIVE_DEV_SERVER_NOT_READY_MESSAGE" : "Błąd przy próbie zainicjowania serwera HTTP dla Podglądu błyskawicznego. Spróbuj ponownie.",
@@ -123,7 +123,7 @@ define({
     "FIND_IN_FILES_LINE"                : "linia:&nbsp;{0}",
 
     "ERROR_FETCHING_UPDATE_INFO_TITLE"  : "Błąd pobierania wersji.",
-    "ERROR_FETCHING_UPDATE_INFO_MSG"    : "Wystąpił problem podczas pobierania informacji o najnowszej wersji aplikacji. Upewnij się, że jeste podłączony do Internetu i spróbuj ponownie.",
+    "ERROR_FETCHING_UPDATE_INFO_MSG"    : "Wystąpił problem podczas pobierania informacji o najnowszej wersji aplikacji. Upewnij się, że jesteś podłączony do Internetu i spróbuj ponownie.",
     
     // Switch language
     "LANGUAGE_TITLE"                    : "Zmień Język",
@@ -135,7 +135,7 @@ define({
      * ProjectManager
      */
     "PROJECT_LOADING" : "Ładowanie\u2026",
-    "UNTITLED" : "Bez_znawy",
+    "UNTITLED" : "Bez_nazwy",
 
     /**
      * Keyboard modifier names
@@ -172,8 +172,8 @@ define({
     "CMD_FILE_CLOSE_ALL"                  : "Zamknij Wszystko",
     "CMD_FILE_SAVE"                       : "Zapisz",
     "CMD_FILE_SAVE_ALL"                   : "Zapisz Wszystko",
-    "CMD_LIVE_FILE_PREVIEW"               : "Błyskawiczny podgląd",
-    "CMD_LIVE_HIGHLIGHT"                  : "Błyskawiczne podwietlanie",
+    "CMD_LIVE_FILE_PREVIEW"               : "Podgląd Błyskawiczny",
+    "CMD_LIVE_HIGHLIGHT"                  : "Błyskawiczne podświetlanie",
     "CMD_PROJECT_SETTINGS"                : "Ustawienia Projektu\u2026",
     "CMD_FILE_RENAME"                     : "Zmień nazwę",
     "CMD_INSTALL_EXTENSION"               : "Zainstaluj Rozszerzenie...",
